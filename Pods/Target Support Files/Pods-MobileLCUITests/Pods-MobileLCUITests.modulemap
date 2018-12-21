@@ -1,0 +1,6 @@
+framework module Pods_MobileLCUITests {
+  umbrella header "Pods-MobileLCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
