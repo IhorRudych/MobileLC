@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		45733F1ABB81FB297F98411B /* Pods_MobileLCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE20DBDB35C4DFDDF9455B1 /* Pods_MobileLCTests.framework */; };
 		7567A1AB106CD6AC00E1A0BA /* Pods_MobileLCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7417849264FBCA7B605F771B /* Pods_MobileLCUITests.framework */; };
+		831C400A21CDCE6D002C9316 /* MethodEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C400921CDCE6D002C9316 /* MethodEditorController.swift */; };
 		9B97E45BD05BC971C98B38FC /* Pods_MobileLC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D789A0BFD28E32FB2477CB13 /* Pods_MobileLC.framework */; };
 		F969850D21CBF3AF00A6E54D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969850C21CBF3AF00A6E54D /* AppDelegate.swift */; };
 		F969850F21CBF3AF00A6E54D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969850E21CBF3AF00A6E54D /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		5CE7628D6A84EBF533AE4875 /* Pods-MobileLCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLCUITests/Pods-MobileLCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F499788BEE41B4DF8AF7F8C /* Pods-MobileLCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLCTests/Pods-MobileLCTests.release.xcconfig"; sourceTree = "<group>"; };
 		7417849264FBCA7B605F771B /* Pods_MobileLCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileLCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C400921CDCE6D002C9316 /* MethodEditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodEditorController.swift; sourceTree = "<group>"; };
 		BF5EE18C811FEE432BA4B93B /* Pods-MobileLCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLCTests/Pods-MobileLCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C30D7851E541B5A50E6CC4F6 /* Pods-MobileLCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLCUITests/Pods-MobileLCUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D789A0BFD28E32FB2477CB13 /* Pods_MobileLC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileLC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 				F969850C21CBF3AF00A6E54D /* AppDelegate.swift */,
 				F969850E21CBF3AF00A6E54D /* ViewController.swift */,
 				F969851021CBF3AF00A6E54D /* Main.storyboard */,
+				831C400921CDCE6D002C9316 /* MethodEditorController.swift */,
 				F969853F21CC50F300A6E54D /* DataViewController.swift */,
 				F969854121CC513000A6E54D /* ConfigViewController.swift */,
 				F969853D21CC3F3200A6E54D /* MainViewController.swift */,
@@ -413,6 +416,7 @@
 			files = (
 				F969850F21CBF3AF00A6E54D /* ViewController.swift in Sources */,
 				F969850D21CBF3AF00A6E54D /* AppDelegate.swift in Sources */,
+				831C400A21CDCE6D002C9316 /* MethodEditorController.swift in Sources */,
 				F969854221CC513000A6E54D /* ConfigViewController.swift in Sources */,
 				F969854021CC50F300A6E54D /* DataViewController.swift in Sources */,
 				F969851521CBF3AF00A6E54D /* MobileLC.xcdatamodeld in Sources */,

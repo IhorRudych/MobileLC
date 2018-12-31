@@ -17,8 +17,8 @@ class MainViewController:UIViewController{
     var months: [String]!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let x = [0.2,10.1,14.6,17.2]
-        let y = [0.2,12.5,18.9,2.4]
+        let x = [0.0,1.0,1.2,1.3,1.4]
+        let y = [0.0,95.0,95.0,5.0,5.0]
        
         setChart(x: x, y: y)
         
